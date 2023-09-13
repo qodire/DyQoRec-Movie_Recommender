@@ -1,6 +1,7 @@
-Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
+Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by other users for that movie.
 
-The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API.
+Dataset features (movie_id, title, overview, genres, keywords, cast, crew) obtained from https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata.
+Movie posters are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API.
 
 Source Code: https://github.com/qodire/DyQoRec-Movie_Recommender
 
@@ -13,8 +14,7 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 3. Install all the libraries mentioned in the [requirements.txt](https://github.com/qodire/DyQoRec-Movie_Recommender/blob/main/requirements.txt) file with the command `pip install -r requirements.txt`
 4. Get your API key from https://www.themoviedb.org/. (Refer the above section on how to get the API key)
 5. Open your terminal/command prompt from your project directory and run the file `app.py` by executing the command `streamlit run app.py`.
-6. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
-7. Well, that's it. Please Enjoy!
+6. Well, that's it. Please Enjoy!
 
 ## Similarity Score : 
 How does it decide which item is most similar to the item user likes? Here come the similarity scores.
