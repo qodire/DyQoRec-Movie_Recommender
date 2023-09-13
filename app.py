@@ -58,7 +58,7 @@ with rightCol:
 
 
 if show_bttn:
-    st.subheader("**Here Are Some Movies We Recommend. Enjoy!**")
+    st.subheader("Recommended Movies Based On " + selected_movie)
     st.write("")
     recommended_movies_name, recommended_movies_poster = recommend(
         selected_movie)
