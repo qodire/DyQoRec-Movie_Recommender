@@ -1,0 +1,13 @@
+setuptools 68.2.2
+pickle5 0.0.12
+streamlit 1.26.0
+numpy 1.25.2
+pandas 2.1.0
+matplotlib 3.7.3
+os-sys 2.1.4
+AST 0.0.2
+nltk 3.8.1
+stem 1.8.2
+sklearn 0.0.post9
+requests
+st_lottie
